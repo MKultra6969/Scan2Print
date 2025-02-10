@@ -8,6 +8,9 @@ cd Scan2Print
 pip install -r requirements.txt
 ```
 ----
+## **Билдим exe'шник**
+- ```pyinstaller --onefile --windowed Scan2Print_ver.2.0.py``` - после этого проверяем папку ```dist/``` в ней и будет лежать .exe
+----
 ## Важно!
 - Проверял только на **win10/11**, на **win7** не стартуется, лень делать
 - ```Scan2Print_ver.1.0.py``` - для запуска из под консоли
