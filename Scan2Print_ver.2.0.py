@@ -9,7 +9,7 @@ import time
 import socket
 import pythoncom
 
-LOG_TO_FILE = True
+LOG_TO_FILE = True  # Закоментить всю строку если не нужен лог файл
 LOG_FILE = "scan2print.log"
 
 if LOG_TO_FILE:
